@@ -1,6 +1,6 @@
 {
-  "name": "@aws-amplify/analytics",
-  "version": "1.2.18",
+  "name": "@dieta/@aws-amplify/analytics",
+  "version": "1.3.0",
   "description": "Analytics category of aws-amplify",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
