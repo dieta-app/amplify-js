@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.5.0"></a>
+# 1.5.0 (2019-07-04)
+
+
+### Bug Fixes
+
+* **@aws-amplify/analytics:** abort recording events when lacking of application id or region ([b2b631b](https://github.com/aws/aws-amplify/commit/b2b631b))
+* **@aws-amplify/analytics:** Auto session tracking after Auth is configured ([ce31f57](https://github.com/aws/aws-amplify/commit/ce31f57))
+* **@aws-amplify/analytics:** avoid return statement in the beforeunload function ([2b6e95e](https://github.com/aws/aws-amplify/commit/2b6e95e))
+* **@aws-amplify/analytics:** check the environment before running dom-utils ([4375b21](https://github.com/aws/aws-amplify/commit/4375b21))
+* **@aws-amplify/analytics:** clear timer when analytics is disabled ([5d1370d](https://github.com/aws/aws-amplify/commit/5d1370d))
+* **@aws-amplify/analytics:** fix the event name of session start/stop ([12f4e6f](https://github.com/aws/aws-amplify/commit/12f4e6f))
+* **@aws-amplify/analytics:** fix the type definition ([34daec2](https://github.com/aws/aws-amplify/commit/34daec2))
+* **@aws-amplify/analytics:** generate endpoint id if not provided ([cca9d2f](https://github.com/aws/aws-amplify/commit/cca9d2f))
+* **@aws-amplify/analytics:** manual version bump ([b347e0d](https://github.com/aws/aws-amplify/commit/b347e0d))
+* **@aws-amplify/analytics:** prevent sending reqeusts simultaneously if endpoint is not generated yet ([8a7d7cc](https://github.com/aws/aws-amplify/commit/8a7d7cc))
+* **@aws-amplify/analytics:** resolve/reject correctly when calling reocrd ([c3eb6cc](https://github.com/aws/aws-amplify/commit/c3eb6cc))
+* **@aws-amplify/analytics:** send session stop events when app turns into background/inactive ([e2e9b66](https://github.com/aws/aws-amplify/commit/e2e9b66))
+* **@aws-amplify/analytics:** unlink user id from endpoint when limit exceeds ([b2de140](https://github.com/aws/aws-amplify/commit/b2de140))
+* **@aws-amplify/analytics:** use the correct user id when unlinking endpoints ([acb955f](https://github.com/aws/aws-amplify/commit/acb955f))
+* **@aws-amplify/pushnotification:** send campaign open events when app is opend by notification ([d21d4fe](https://github.com/aws/aws-amplify/commit/d21d4fe))
+* **aws-amplify:** update the version of aws-sdk to latest ([482402d](https://github.com/aws/aws-amplify/commit/482402d))
+* **aws-amplify-angular:** Angular rollup ([#1441](https://github.com/aws/aws-amplify/issues/1441)) ([eb84e01](https://github.com/aws/aws-amplify/commit/eb84e01))
+
+
+### Features
+
+* **@aws-amplify/analytics:** allow users to fully configure pinpoint endpoint ([55727cf](https://github.com/aws/aws-amplify/commit/55727cf))
+* **@aws-amplify/analytics:** Analytics auto tracking ([585edf2](https://github.com/aws/aws-amplify/commit/585edf2))
+* **aws-amplify/analytics:** using Pinpoint New API ([f8e60c1](https://github.com/aws/aws-amplify/commit/f8e60c1))
+* **core:** Hub refactor and tests ([7ac5bcf](https://github.com/aws/aws-amplify/commit/7ac5bcf))
+
+
+
+
 <a name=""></a>
 #  (2019-07-04)
 
